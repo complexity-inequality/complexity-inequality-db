@@ -1,2 +1,9 @@
 /data
 /conf
+/venv
+.Rproj.user
+.RData
+.Rhistory
+.vscode/
+complexity-inequality-db.Rproj
+

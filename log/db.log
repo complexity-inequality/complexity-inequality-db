@@ -1,0 +1,345 @@
+========================================================================= 
+Log Path: ./log/db.log 
+Working Directory: /home/rstudio/08-complexity-inequality/complexity-inequality-db 
+User Name: rstudio 
+R Version: 3.6.2 (2019-12-12) 
+Machine: 67ffba66d602 x86_64 
+Operating System: Linux 5.4.0-80-generic #90~18.04.1-Ubuntu SMP Tue Jul 13 19:40:02 UTC 2021 
+Log Start Time: 2021-08-09 01:13:13 
+========================================================================= 
+
+Running db script 
+
+NOTE: Log Print Time:  2021-08-09 01:13:16 
+NOTE: Elapsed Time in seconds: 2.49985241889954 
+
+Running data_rnorm() 
+
+NOTE: Log Print Time:  2021-08-09 01:13:18 
+NOTE: Elapsed Time in seconds: 2.50766968727112 
+
+Running data_exports() 
+
+NOTE: Log Print Time:  2021-08-09 01:13:44 
+NOTE: Elapsed Time in seconds: 26.3522038459778 
+
+Running data_residuf() 
+
+NOTE: Log Print Time:  2021-08-09 01:15:09 
+NOTE: Elapsed Time in seconds: 1.40589333772659 
+
+db_mun stored at ll_db 
+
+NOTE: Log Print Time:  2021-08-09 01:15:25 
+NOTE: Elapsed Time in seconds: 15.8879075050354 
+
+Summarizing df_uf 
+
+NOTE: Log Print Time:  2021-08-09 01:15:28 
+NOTE: Elapsed Time in seconds: 2.93080878257751 
+
+Binding df_eci to df_uf 
+
+NOTE: Log Print Time:  2021-08-09 01:16:35 
+NOTE: Elapsed Time in seconds: 1.1159437974294 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Columns `1`, `product`, and `9` don't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:17:37 
+NOTE: Elapsed Time in seconds: 1.04125207662582 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Columns `1`, `product`, and `9` don't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:23:44 
+NOTE: Elapsed Time in seconds: 6.1105130592982 
+
+[1] "Error: Can't rename columns that don't exist.\n\033[31mx\033[39m Column `reg` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:33:39 
+NOTE: Elapsed Time in seconds: 9.92064200639725 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Columns `1`, `product`, and `9` don't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:34:28 
+NOTE: Elapsed Time in seconds: 48.9838213920593 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Columns `1`, `product`, and `9` don't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:35:32 
+NOTE: Elapsed Time in seconds: 1.0736257036527 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `product` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:36:06 
+NOTE: Elapsed Time in seconds: 33.9115929603577 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `product` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:38:13 
+NOTE: Elapsed Time in seconds: 2.10838103691737 
+
+[1] "Error: Join columns must be present in data.\n\033[31mx\033[39m Problem with `cd_uf`.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:40:13 
+NOTE: Elapsed Time in seconds: 1.99657886425654 
+
+[1] "Error: unexpected symbol in:\n\"      df1 #%>% dplyr::select(-product, -value) %>% dplyr::distinct(), \n      by\"\n"
+
+NOTE: Log Print Time:  2021-08-09 01:40:25 
+NOTE: Elapsed Time in seconds: 12.0923109054565 
+
+Error: unexpected ')' in "    )"
+ 
+
+NOTE: Log Print Time:  2021-08-09 01:40:25 
+NOTE: Elapsed Time in seconds: 0.00149369239807129 
+
+Error in desc(value) : object 'value' not found
+ 
+
+NOTE: Log Print Time:  2021-08-09 01:40:25 
+NOTE: Elapsed Time in seconds: 0.0646922588348389 
+
+[1] "Error: Join columns must be present in data.\n\033[31mx\033[39m Problem with `cd_uf`.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:40:32 
+NOTE: Elapsed Time in seconds: 6.8992338180542 
+
+[1] "Error: Join columns must be present in data.\n\033[31mx\033[39m Problem with `cd_uf`.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:41:54 
+NOTE: Elapsed Time in seconds: 1.37864250739415 
+
+[1] "Error: Join columns must be present in data.\n\033[31mx\033[39m Problem with `country`.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:42:52 
+NOTE: Elapsed Time in seconds: 57.5391976833344 
+
+[1] "Error: Join columns must be present in data.\n\033[31mx\033[39m Problem with `cd_uf`.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:43:35 
+NOTE: Elapsed Time in seconds: 43.4981179237366 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `product` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:45:32 
+NOTE: Elapsed Time in seconds: 1.9364580432574 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `product` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:46:16 
+NOTE: Elapsed Time in seconds: 44.0513441562653 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:47:55 
+NOTE: Elapsed Time in seconds: 1.64968510071437 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:48:05 
+NOTE: Elapsed Time in seconds: 9.94535231590271 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `country` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:48:08 
+NOTE: Elapsed Time in seconds: 2.9989755153656 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `country` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:48:09 
+NOTE: Elapsed Time in seconds: 1.70608067512512 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:55:15 
+NOTE: Elapsed Time in seconds: 7.09570132891337 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:55:19 
+NOTE: Elapsed Time in seconds: 4.04239463806152 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:55:31 
+NOTE: Elapsed Time in seconds: 12.0906155109406 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:56:30 
+NOTE: Elapsed Time in seconds: 59.0956199169159 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 01:59:22 
+NOTE: Elapsed Time in seconds: 2.86600478490194 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `product` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 02:06:40 
+NOTE: Elapsed Time in seconds: 7.29981007178624 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `product` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 02:07:01 
+NOTE: Elapsed Time in seconds: 20.8483083248138 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `product` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 02:07:12 
+NOTE: Elapsed Time in seconds: 11.4878075122833 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `product` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 02:07:50 
+NOTE: Elapsed Time in seconds: 37.2488095760345 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `product` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 02:08:10 
+NOTE: Elapsed Time in seconds: 19.8514716625214 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 02:08:26 
+NOTE: Elapsed Time in seconds: 16.0327081680298 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 02:08:53 
+NOTE: Elapsed Time in seconds: 27.5306406021118 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `var` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 02:10:58 
+NOTE: Elapsed Time in seconds: 2.08388036092122 
+
+Binding df_eci to df_uf 
+
+NOTE: Log Print Time:  2021-08-09 02:15:02 
+NOTE: Elapsed Time in seconds: 4.07049666643143 
+
+db_uf stored at ll_db 
+
+NOTE: Log Print Time:  2021-08-09 02:17:16 
+NOTE: Elapsed Time in seconds: 2.22747313578924 
+
+Summarizing db_meso 
+
+NOTE: Log Print Time:  2021-08-09 02:17:18 
+NOTE: Elapsed Time in seconds: 2.13235354423523 
+
+[1] "Error: Must group by variables found in `.data`.\n* Column `cd_year` is not found.\n* Column `product` is not found.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 02:17:19 
+NOTE: Elapsed Time in seconds: 1.20518159866333 
+
+Summarizing db_meso 
+
+NOTE: Log Print Time:  2021-08-09 02:29:31 
+NOTE: Elapsed Time in seconds: 12.1878309726715 
+
+Binding df_eci to db_meso 
+
+NOTE: Log Print Time:  2021-08-09 02:29:49 
+NOTE: Elapsed Time in seconds: 18.7668278217316 
+
+db_meso stored at ll_db 
+
+NOTE: Log Print Time:  2021-08-09 02:30:54 
+NOTE: Elapsed Time in seconds: 1.0700937628746 
+
+Summarizing db_micro 
+
+NOTE: Log Print Time:  2021-08-09 02:30:55 
+NOTE: Elapsed Time in seconds: 0.977608442306519 
+
+Binding df_eci to db_micro 
+
+NOTE: Log Print Time:  2021-08-09 02:31:16 
+NOTE: Elapsed Time in seconds: 21.7341260910034 
+
+db_micro stored at ll_db 
+
+NOTE: Log Print Time:  2021-08-09 02:35:18 
+NOTE: Elapsed Time in seconds: 4.02385849952698 
+
+Summarizing db_rgint 
+
+NOTE: Log Print Time:  2021-08-09 02:35:26 
+NOTE: Elapsed Time in seconds: 8.35495638847351 
+
+Binding df_eci to db_rgint 
+
+NOTE: Log Print Time:  2021-08-09 02:35:55 
+NOTE: Elapsed Time in seconds: 28.408814907074 
+
+db_rgint stored at ll_db 
+
+NOTE: Log Print Time:  2021-08-09 02:38:25 
+NOTE: Elapsed Time in seconds: 2.50026522874832 
+
+Summarizing db_rgime 
+
+NOTE: Log Print Time:  2021-08-09 02:38:26 
+NOTE: Elapsed Time in seconds: 1.74217700958252 
+
+Binding df_eci to db_rgime 
+
+NOTE: Log Print Time:  2021-08-09 02:39:40 
+NOTE: Elapsed Time in seconds: 1.23634989658991 
+
+db_rgime stored at ll_db 
+
+NOTE: Log Print Time:  2021-08-09 02:41:17 
+NOTE: Elapsed Time in seconds: 1.60681669712067 
+
+Saving ll_db 
+
+NOTE: Log Print Time:  2021-08-09 02:41:20 
+NOTE: Elapsed Time in seconds: 2.88878965377808 
+
+Error in is.data.frame(y) : object 'dic_uf' not found
+ 
+
+NOTE: Log Print Time:  2021-08-09 03:05:45 
+NOTE: Elapsed Time in seconds: 24.428163643678 
+
+Error in is.data.frame(y) : object 'dic_uf' not found
+ 
+
+NOTE: Log Print Time:  2021-08-09 03:05:55 
+NOTE: Elapsed Time in seconds: 9.75069284439087 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `sg_uf` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 03:10:10 
+NOTE: Elapsed Time in seconds: 4.24668699502945 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Column `sg_uf` doesn't exist.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 03:10:38 
+NOTE: Elapsed Time in seconds: 27.7260544300079 
+
+Running data_residuf() 
+
+NOTE: Log Print Time:  2021-08-09 03:21:05 
+NOTE: Elapsed Time in seconds: 10.4594589908918 
+
+[1] "Error: Can't subset columns that don't exist.\n\033[31mx\033[39m Locations 86, 87, 88, 89, 90, etc. don't exist.\n\033[34mℹ\033[39m There are only 85 columns.\n\033[90mRun `rlang::last_error()` to see where the error occurred.\033[39m\n"
+
+NOTE: Log Print Time:  2021-08-09 05:33:25 
+NOTE: Elapsed Time in seconds: 2.20549418224229 
+
+[1] "Error in clean_names.default(.) : \n  No `clean_names()` method exists for the class list\nConsider janitor::make_clean_names() for other cases of manipulating vectors of names.\n"
+
+NOTE: Log Print Time:  2021-08-09 05:39:33 
+NOTE: Elapsed Time in seconds: 6.13721208175023 
+
+Error in match.fun(FUN) : object 'f1' not found
+ 
+
+NOTE: Log Print Time:  2021-08-09 05:41:23 
+NOTE: Elapsed Time in seconds: 1.82635535399119 
+
